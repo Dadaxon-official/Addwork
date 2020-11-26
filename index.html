@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 25 homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<div class="col-lg-4 offset-lg-4 col-12 mt-lg-5">
+    <div class="card">
+        <div class="card-header bg-info">
+            <h2>Task Managment</h2>
+        </div>
+        <div class="card-body">
+            <div class="input-group">
+                <input type="text" id="task" onkeyup="addByEnter(event)" class="form-control" placeholder="Enter task .. ">
+                <div class="input-group-prepend">
+                    <button type="button" class="btn btn-success" onclick="addTask()">
+                        + Add
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div id="taskList">
+                <div>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="progress">
+                <div class="progress progress-bar-striped progress-bar-animated"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="js/main.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
